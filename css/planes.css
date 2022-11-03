@@ -1,0 +1,150 @@
+.planes {
+    background-color: var(--background-ceniza-claro);
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}    
+    section.planes_container {
+    background-color: #F7F4F4;
+    padding: 3rem 0;
+}
+
+.planes__titulo {
+    color: var(--fuente-ceniza-oscuro);
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+
+    margin-bottom: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #4F4C4C;
+    margin-bottom: 30px;
+}
+
+.planes__tarjetas {
+    margin: 0 40px;
+    display: flex;
+    
+    justify-content: space-around;
+    flex-grow: row wrap;
+    align-items: center;
+    align-items:flex-end;
+}
+
+.tarjetas {
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--background-blanco);
+
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 300px;
+
+    margin-bottom: 2rem;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+
+    padding: .75rem 0;
+
+    margin-bottom: .5rem;
+
+    border-bottom: 1px solid var(--background-azul-claro);
+    border-bottom: 1px solid #DFE3F5;
+    border-width: 100%;
+}
+
+.tarjetas__contenido {
+
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.tarjetas__texto {
+    color: var(--fuente-ceniza-oscuro);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #666666;
+}
+
+.tarjetas__boton {
+@@ -79,20 +80,61 @@
+}
+
+.tarjetas--start {
+    margin: 15px 30px;
+    background: #FFFFFF;
+    line-height: 48px;
+    color: #035A76;
+}
+
+.tarjetas--ultra {
+    margin: 15px 30px;
+    background: #FFFFFF;
+    line-height: 48px;
+    color: #690F8E;
+}
+
+.tarjetas--mega {
+    margin: 15px 30px;
+    background: #FFFFFF;
+    line-height: 48px;
+    color: #B00024;
+}
+
+.tarjetas__boton--start {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #035A76;
+    border-color:#035A76 ;
+}
+
+.tarjetas__boton--ultra {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-color: #690F8E;
+    color: #690F8E;
+}
+
+.tarjetas__boton--mega {
+    border-color: var(--planes-card-mega);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-color: #B00024;
+    color: #B00024;
+}
